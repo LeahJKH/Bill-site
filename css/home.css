@@ -1,0 +1,23 @@
+.card-serv {
+    background-color: rgb(66, 66, 66);
+    width: 50%;
+    height: 250px;
+    border-radius: 10px;
+    border: 1px solid rgb(18, 18, 18);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.serv-img {
+    height: 100%;
+    width: 200px;
+}
+.serv-txt {
+    text-align: center;
+    font-size: 19px;
+    color: rgb(231, 231, 231);
+}

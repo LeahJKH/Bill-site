@@ -2,4 +2,60 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header {
+ background-color: rgb(60, 83, 60);
+ background-image: url(../images/bg/camo.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 87px;
+ width: 100vw;
+ padding: 10px 25px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+}
+main {
+background-color: rgb(39, 39, 39);
+padding: 50px;
+}
+footer {
+background-color: rgb(60, 83, 60);
+}
+
+.header-info-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-img {
+    height: 50px;
+}
+.header-txt {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    color: white;
+    text-shadow: -1px -2px 2px black;
+}
+.header-btn {
+    width: 50px;
+    height: 25px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+}
+.header-btn:hover {
+    width: 100px;
+    height: 35px;
+    background-color: rgba(0, 0, 0, 0.594);
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    font-size: 24px;
 }
