@@ -35,6 +35,10 @@
     grid-row: 2/2;
  grid-column: 2 / 4;
 }
+#card-serv2 {
+    grid-row: 3/3;
+ grid-column: 3 / 4;
+}
 #mid-stopper {
     height: 300px;
     width: 100%;
